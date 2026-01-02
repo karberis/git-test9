@@ -4,7 +4,7 @@ package gr.aueb.cf.cf9.exercises.Arrays;
  * Reverse an array using for loop
  */
 public class ReverseArray {
-    static void main() {
+    public static void main(String[] args) {
         int [] ages = {47, 22, 19, 15, 65};
 
         // traverse for loop
