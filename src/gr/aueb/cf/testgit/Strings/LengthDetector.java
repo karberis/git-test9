@@ -1,0 +1,22 @@
+package gr.aueb.cf.cf9.exercises.Strings;
+
+import java.util.Scanner;
+
+/**
+ * Exercise: Length detector
+ */
+public class LengthDetector {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String word = "";
+
+        System.out.println("Please enter the word for length detection: ");
+        word = scanner.nextLine();
+
+        if (word.length() > 10){
+            System.out.println("The word is longer than 10 characters.");
+        } else{
+            System.out.println("The word is shorter than 10 characters.");
+        }
+    }
+}
