@@ -37,7 +37,6 @@ public class BestStudentExercise {
         // 3. If there are two students with the same maximum grade (e.g. 92), print both
         for(int i = 0; i < grades.length; i++) {
             if(grades[i] == highestGrade){
-
                 System.out.println("Position with highest grade is: " + i + ": " + names[i]);
             }
         }
