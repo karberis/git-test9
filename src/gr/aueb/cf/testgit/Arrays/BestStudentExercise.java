@@ -11,7 +11,7 @@ package gr.aueb.cf.cf9.exercises.Arrays;
  */
 public class BestStudentExercise {
     public static void main(String[] args) {
-        String[] names = {"John", "Mary", "Peter", "Ann", "George"};
+        String[] names = {"John", "Mary", "Peter", "Annie", "George"};
         int[] grades = {65, 92, 45, 88, 92};
         double sum = 0.0;
         double average = 0.0;
