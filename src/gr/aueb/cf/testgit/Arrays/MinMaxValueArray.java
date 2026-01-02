@@ -4,7 +4,8 @@ package gr.aueb.cf.cf9.exercises.Arrays;
  *  Find min and max value in an array.
  */
 public class MinMaxValueArray {
-    static void main() {
+    public static void main(String[] args) {
+
         int [] ages = {47, 22, 19, 15, 65, 12};
         int min = ages[0];
         int max = ages[0];
