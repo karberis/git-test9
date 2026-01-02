@@ -16,11 +16,11 @@ public class BubbleSort {
             // because you already made it.
             for(int j = 0; j < (grades.length -1) - i; j++){
 
-                // We check: Is the current degree smaller than the next one?
+                // We check: Is the current grade smaller than the next one?
                 // If so, they should go back (so that the big ones come forward)
                 if(grades[j] < grades[j+1]){
 
-                    // EXCHANGE OF POINTS - SWAP
+                    // EXCHANGE OF GRADES - SWAP
                     tempGrade = grades[j];
                     grades[j] = grades[j+1];
                     grades[j+1] = tempGrade;
