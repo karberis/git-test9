@@ -7,7 +7,7 @@ package gr.aueb.cf.cf9.exercises.Strings;
 public class TraverseString {
     public static void main(String[] args) {
         String firstname = "Nikolaos";
-        String lastname = "Karberis";
+        String lastname = "Karmperis";
 
         // for loop
         for(int i = 0; i < firstname.length(); i++){
