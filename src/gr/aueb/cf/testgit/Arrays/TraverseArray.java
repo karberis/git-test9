@@ -1,4 +1,4 @@
-package gr.aueb.cf.cf9.exercises;
+package gr.aueb.cf.cf9.exercises.Arrays;
 
 /**
  * Traverse an array using for loop and for-each
