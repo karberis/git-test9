@@ -7,7 +7,7 @@ public class ReverseArray {
     public static void main(String[] args) {
         int [] ages = {47, 22, 19, 15, 65};
 
-        // traverse for loop
+        // traverse for-each loop
         System.out.print("Ages: ");
         for(int age : ages){
             System.out.print(age + " ");
