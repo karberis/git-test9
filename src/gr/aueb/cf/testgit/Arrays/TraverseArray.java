@@ -5,7 +5,7 @@ package gr.aueb.cf.cf9.exercises.Arrays;
  */
 
 public class TraverseArray {
-    static void main() {
+    public static void main(String[] args) {
 
         int [] ages = {47, 22, 19, 15, 65};
 
